@@ -39,7 +39,7 @@ class Portfolio:
         return self.portfolio
 
 ############################################ Our code #########################################
-"""
+
 from deepdow.benchmarks import Benchmark, OneOverN, Random
 from deepdow.callbacks import EarlyStoppingCallback
 from deepdow.data import InRAMDataset, RigidDataLoader, prepare_standard_scaler, Scale
@@ -169,4 +169,4 @@ run = Run(network,
                                            patience=15)])
 
 history = run.launch(30)
-"""
+
